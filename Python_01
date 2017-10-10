@@ -1,0 +1,35 @@
+Python lection 1.
+Графические  интерфейсы:
+• IDE
+• PyCharm Community
+Операторы:
+130%30 - остаток от деления. 7%2 > 1
+type (x) – показывает вид переменной x: int – число, float – десятичная дробь.
+float (x) – представляет число в виде десятичной дроби
+word
+>>> word='hello!'
+>>> word
+'hello!'
+>>> type(word)
+<class 'str'>
+>>> my_world='world'
+>>> word+my_world
+'hello!world'
+ 
+>>> per1='привет,'
+>>> per2='Кая'
+>>> result=per1+per2
+>>> result
+'привет,Кая'
+ 
+Вывод данных:
+print ('Hello!')
+# - чтобы закомментить
+ 
+>>> num_str='3'
+>>> num=int(num_str)
+>>> num
+3
+>>> type(num)
+<class 'int'>
+>>>
