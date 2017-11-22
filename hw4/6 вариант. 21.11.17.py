@@ -5,10 +5,6 @@ words = text.split()
 cap = 0
 low = 0
 for word in words:
-    if not word.isalpha(): #чтобы считались только слова, т.е. буквенные последовательности
-        cap+=0
-        low+=0
-    else:
         if word.istitle():
          cap+=1
         else:
