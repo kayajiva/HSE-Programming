@@ -12,3 +12,5 @@ for word in words:
             ntext.append(nword)
 fin = " ".join(ntext)
 print(fin)
+
+#заменить знаки препинания на пробелы
