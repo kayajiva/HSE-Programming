@@ -15,7 +15,7 @@ def find_words(text):
 #1 лицо ед. число буд. время
     words3 = re.findall('загружус?[яь]?', text)
 #всё остальное
-    words4 = re.findall('загруз[ия][мтшл][иаоеь]?с?[яь]?', text)
+    words4 = re.findall('загруз[ия][мтшл]?[иаоеь]?с?[яь]?', text)
     words = words1 + words2 + words3 + words4
     return words
 
