@@ -21,6 +21,7 @@ def find_words(text):
     words = words1 + words2 + words3 + words4 + words5
     return words
 
+#записываем каждое слово по одному разу
 def write_words(words):
     final = []
     for word in words:
